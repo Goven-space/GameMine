@@ -1,0 +1,41 @@
+body,div,button{
+    padding :0;
+    margin:0;
+}
+body{
+    width:100vw;
+    text-align:center;
+}
+.wrapper{
+    display:inlinde-block;
+    /* margin-top:40px; */
+}
+.level-btn{
+    padding:3px 10px;
+    margin:40px 5px;
+}
+table{
+    border-spacing:1px;
+    background:#929196;
+    margin:0 auto;
+}
+td{
+    padding:0;
+    width:20px;
+    height:20px;
+    background:#ccc;
+    border:2px solid;
+    border-color: #fff #a1a1a1  #a1a1a1 #fff;
+}
+.mine{
+    background-image: url('./mine.png');
+    border:none;
+}
+.bomb{
+    background-color:red;
+}
+.flag{
+    background-image:url('./flag.png');
+    background-size:cover;
+    background-repeat:none;
+}
