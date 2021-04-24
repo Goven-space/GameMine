@@ -5,6 +5,7 @@ body,div,button{
 body{
     width:100vw;
     text-align:center;
+    
 }
 .wrapper{
     display:inlinde-block;
@@ -26,15 +27,64 @@ td{
     background:#ccc;
     border:2px solid;
     border-color: #fff #a1a1a1  #a1a1a1 #fff;
+    font-size:14px;
+    font-weight:bold;
 }
 .mine{
     background-image: url('./mine.png');
-    border:none;
+    background-size:cover;
+    border-color:#d9d9d9;
 }
-.bomb{
+.zero{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+}
+.one{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#0332fe;
+}
+.two{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#019f02;
+}
+.three{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#ff2600;
+}
+.four{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#93208f;
+}
+.five{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#ff7f29;
+}
+.six{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#ff3fff;
+}
+.seven{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#3fffbf;
+}
+.eight{
+    border-color:#d9d9d9;
+    background:#d9d9d9;
+    color:#22ee0f;
+}
+
+
+td.bomb{
     background-color:red;
 }
-.flag{
+td.flag{
     background-image:url('./flag.png');
     background-size:cover;
     background-repeat:none;
